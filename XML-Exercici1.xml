@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE esdeveniments SYSTEM "DTD-Exercici1.dtd">
 <esdeveniments>
     <esdeveniment>
         <grup>Oques Grasses</grup>
         <lloc>El moll de la fusta</lloc>
         <data>2017-09-12 22:30</data>
-        <entrada gratuita="si"/>
+        <entrada gratuita="si">0.00</entrada>
     </esdeveniment>
     <esdeveniment>
         <grup>Zoo</grup>
