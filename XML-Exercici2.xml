@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "DTD-Exercici2.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="A1">
+            <nom>Rosa</nom>
+            <edat>32</edat>
+        </actor>
+        <actor id="A2">
+            <nom>Pau</nom>
+            <edat>29</edat>
+        </actor>
+        <actor id="A3">
+            <nom>Eduardo</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="P1">
+            <titol idioma="CA">Iron Man</titol>
+            <director>Jon Favreau</director>
+            <any>2008</any>
+            <actors>
+                <actor_ref ref="A1"/>
+                <actor_ref ref="A2"/>
+                <actor_ref ref="A3"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P2">
+            <titol idioma="EN">Rompe Ralph</titol>
+            <director>Rich Moore</director>
+            <any>2012</any>
+            <actors>
+                <actor_ref ref="A1"/>
+                <actor_ref ref="A2"/>
+                <actor_ref ref="A3"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P3">
+            <titol idioma="ES">Barbie</titol>
+            <director>Greta Gerwig</director>
+            <any>2023</any>
+            <actors>
+                <actor_ref ref="A1"/>
+                <actor_ref ref="A2"/>
+                <actor_ref ref="A3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="P1"/>
+        <recomanacio ref="P2"/>
+        <recomanacio ref="P3"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
